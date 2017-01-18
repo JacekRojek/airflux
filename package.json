@@ -34,8 +34,10 @@
   ],
   "dependencies": {
     "eventemitter3": "^1.1.1",
-    "invariant": "^2.2.0",
-    "react": "^15.0.2"
+    "invariant": "^2.2.0"
+  },
+  "peerDependencies": {
+    "react": "0.14.x"
   },
   "devDependencies": {
     "rimraf": "^2.4.3",
