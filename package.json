@@ -1,10 +1,9 @@
 {
   "name": "airflux",
-  "version": "0.8.1",
+  "version": "0.6.0-beta2",
   "description": "A pure ES6 fork of the Reflux data flow library similar to Facebook Flux",
   "files": [
     "*.md",
-    "es5",
     "es6",
     "lib",
     "commonjs2"
@@ -35,7 +34,8 @@
   ],
   "dependencies": {
     "eventemitter3": "^1.1.1",
-    "invariant": "^2.2.0"
+    "invariant": "^2.2.0",
+    "react": "^15.0.2"
   },
   "devDependencies": {
     "rimraf": "^2.4.3",
@@ -67,6 +67,7 @@
     "karma-webpack": "^1.7.0",
     "mocha": "^2.3.4",
     "npm": "^3.5.2",
+    "react": "^15.0.2",
     "sinon": "^1.17.2",
     "webpack": "^1.12.9"
   }
