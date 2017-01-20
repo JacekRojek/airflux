@@ -35,7 +35,7 @@
   ],
   "dependencies": {
     "eventemitter3": "^1.1.1",
-    "react": "0.14.x"
+    "react": "15.0.x"
   },
   "devDependencies": {
     "rimraf": "^2.4.3",
